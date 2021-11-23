@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+a:link,
+a:visited {
+  background-color: #19528b;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover {
+  background-color: rgb(27, 69, 110);
+}
+
+.heading,
+.about {
+  padding: 20px;
+  font-size: 2rem;
+  color: white;
+  display: inline-block;
+}
+
+.about {
+  position: absolute;
+  right: 10px;
+}
+
+.content {
+  background-color: rgba(255, 255, 255, .8);
+  border-radius: .25em;
+  box-shadow: 0 0 .5em rgba(0, 0, 0, .5);
+  box-sizing: border-box;
+  left: 50%;
+  padding: 10vmin;
+  position: fixed;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.6;
+}
+
+.credits {
+  position: absolute;
+  padding: 20px 20px 0;
+  bottom: 20px;
+  font-size: 2rem;
+  color: white;
+}
+
+h1 {
+  font-family: monospace;
+  font-size: 2rem;
+}
+
+button {
+  padding: 8px;
+  margin: 25px 10px 10px;
+}
+
+#particles-js {
+  background: #4177ad;
+  height: 100vh;
+}
+
+form{
+  margin-top : 30px;
+}
